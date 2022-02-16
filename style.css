@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+:root{
+    --main-bg-color: #121212;
+    --default-margin: 10px;
+    --box-shadow: 10px 5px 5px black;
+}
+
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.one {
+    color: white;
+    background-color: var(--main-bg-color);
+    margin: var(--default-margin);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+    
+.two {
+    color: white;
+    background-color: black;
+    margin: 10px;
+    width: 150px;
+    height: 70px;
+    display: inline-block;
+}
+    
+.three {
+    color: white;
+    background-color: var(--main-bg-color);
+    margin: 10px;
+    width: 75px;
+}
+
+h1{
+    margin-left: 10px;
+    margin-bottom:10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: green;
+}
+
+.snyggt{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:700;
+    color:white;
+    background-color: blue;
+    text-decoration: none;
+    /* padding: 10px 25px 10px 25px; */
+    padding: 10px 25px;
+    margin: 100px 100px;
+    /* border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid; */
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.container
+{
+    font-weight: 400;
+    margin-top:200px;
+    background-color: green;
+    padding-top: 200px;
+}
+
+.snyggt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-style: italic */
+}
